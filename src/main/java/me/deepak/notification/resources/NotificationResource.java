@@ -13,7 +13,7 @@ import me.deepak.notification.beans.request.Request;
 import me.deepak.notification.services.CommonService;
 
 @RestController
-@RequestMapping(value = "/t-systems/notify", consumes = "application/json", produces = "application/json")
+@RequestMapping(value = "/notify", consumes = "application/json", produces = "application/json")
 public class NotificationResource {
 
 	@Autowired
